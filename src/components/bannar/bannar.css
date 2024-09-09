@@ -1,0 +1,43 @@
+.bannar {
+  background-color: #f3fbf9;
+  background-image: url("../image/bannar.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(100vh - 128px);
+  width: 100vw;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #161c2d;
+}
+.collection {
+  text-align: center;
+}
+
+.collection h6 {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.collection h2 {
+  font-size: 60px;
+  padding: 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.collection p {
+  font: 900;
+  letter-spacing: 1px;
+}
+.collection button {
+  padding: 10px 15px;
+  background-color: #0f172a;
+  color: #fffff2;
+  font-size: 20px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
